@@ -1,0 +1,23 @@
+
+
+.Mord {max-width: 100%; 
+    height: auto;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.background-mord{
+    min-width: 50px
+    height: auto;
+    position: absolute;
+    object-fit: cover;
+
+}
+body{
+    margin-top: auto;
+    padding: 0%;
+    border: auto;
+
+}
