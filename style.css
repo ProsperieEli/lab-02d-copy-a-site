@@ -1,23 +1,66 @@
+* {
+    box-sizing: border-box;
+    
+    background-color: black;
 
+}
 
-.Mord {max-width: 100%; 
-    height: auto;
-    float: left;
-    font-size: 50px;
+.Search-bar{
+    display: inline-block;
     text-align: center;
+    font-size: 50px;
     color: white;
-    position: relative;
-}
-.background-mord{
-    min-width: 50px
-    height: auto;
-    position: absolute;
-    object-fit: cover;
 
 }
-body{
-    margin-top: auto;
-    padding: 0%;
-    border: auto;
+.image{
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+.bell{
+    border-radius: 50%;
+    width: 90px;
+}
+.microphone{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.inline-block{
+    display: inline-block;
+    border:black;
+}
+.top{
+    border: solid black;
 
+}
+.body{
+    border: solid black;
+    grid-template-columns: minmax(3fr);
+}
+.viewer{
+    grid-template-columns: initial;
+    background-color: black;
+}
+.text{
+    color: blue;
+    font-size: 50px;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+    height: 50px;
+}
+.title{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 0px;
+    border-top: 0px;
+    height: 90px;
+    grid-row: (1fr 9fr);id;
+}
+.like, .dislike{
+    border-radius: 50%;
+    height: 50px;
+    color: gray;
+    padding-left: 10px;
+    
 }
